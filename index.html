@@ -65,24 +65,10 @@
 
   <section class="hero">
     <div class="hero-fond" aria-hidden="true">
-      <svg viewBox="0 0 1200 500" preserveAspectRatio="xMidYMid slice">
-        <rect width="1200" height="500" fill="var(--brique-fonce)"/>
-        <g opacity="0.5">
-          <rect x="0" y="0" width="60" height="30" fill="var(--brique)"/>
-          <rect x="60" y="0" width="60" height="30" fill="var(--brique-fonce)"/>
-          <rect x="120" y="0" width="60" height="30" fill="var(--brique)"/>
-        </g>
-        <g fill="var(--ocre)" opacity="0.85">
-          <rect x="-40" y="60" width="1280" height="6"/>
-          <rect x="-40" y="140" width="1280" height="6"/>
-          <rect x="-40" y="220" width="1280" height="6"/>
-          <rect x="-40" y="300" width="1280" height="6"/>
-          <rect x="-40" y="380" width="1280" height="6"/>
-          <rect x="-40" y="460" width="1280" height="6"/>
-        </g>
-        <circle cx="1000" cy="120" r="140" fill="var(--brique)" opacity="0.4"/>
-        <circle cx="150" cy="420" r="180" fill="var(--brique)" opacity="0.35"/>
-      </svg>
+      <!-- MARQUE-PHOTO-HEROS -->
+      <img class="v3-photo" src="images/heros.jpg" alt="Les allées de la quincaillerie" fetchpriority="high">
+      <div class="hero-voile"></div>
+      <div data-vfond='{"motif":"constellation","couleur":"#C98A2E","couleur2":"#F6F1E7","opacite":0.34,"dessous":false}'></div>
     </div>
     <div class="hero-contenu">
       <p class="hero-etiquette">Depuis 1915 · Rosemont, Montréal</p>
@@ -337,5 +323,6 @@
 </script>
 <script src="protection-demo.js"></script>
 <script src="js/script.js"></script>
+<script src="fond-anime.js"></script>
 </body>
 </html>
