@@ -14,7 +14,7 @@ Bonjour Richard,
 
 Je vous ai construit un site pour changer ça. Il est déjà en ligne :
 
-https://charlesmartel2506.github.io/quincaillerie-a-lalonde/
+https://vaelordesign.github.io/quincaillerie-a-lalonde/
 
 Gratuit, aucune obligation — je l'ai fait avant de vous écrire. Ça vous représente bien ?
 
